@@ -52,6 +52,11 @@ Check which branch you are on
 git branch
 ```
 
+Switch to ```BRANCH```
+```bash
+git checkout BRANCH
+```
+
 Check the status of changes you have made
 ```bash
 git status
