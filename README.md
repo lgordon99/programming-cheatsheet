@@ -78,6 +78,11 @@ Merge a branch with the main branch starting on ```main```
 git merge OTHER_BRANCH
 ```
 
+Push a new branch
+```bash
+git push --set-upstream origin BRANCH
+```
+
 Delete a branch
 ```bash
 git branch -d BRANCH
