@@ -10,6 +10,11 @@ Move or rename file or directory
 mv CURRENT_PATH NEW_PATH
 ```
 
+Copy contents of folder into another folder
+```bash
+cp -R PATH_TO_CURRENT_FOLDER/. PATH_TO_NEW_FOLDER
+```
+
 Zip a file or directory
 ```bash
 zip -r NEW_PATH.zip CURRENT_PATH
