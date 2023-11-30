@@ -21,6 +21,11 @@ Create an environment
 conda create --name ENV_NAME
 ```
 
+Create an environment at ```PATH```
+```bash
+conda create --prefix PATH
+```
+
 Activate an environment at ```PATH```
 ```bash
 conda activate PATH
