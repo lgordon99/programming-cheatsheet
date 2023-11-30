@@ -36,6 +36,11 @@ Add package to conda environment at ```PATH```
 conda install -p PATH PACKAGE
 ```
 
+Remove an environment at ```PATH```
+```bash
+conda env remove --prefix PATH
+```
+
 ## Git
 Clone an existing repository for the purpose of modifying it
 ```bash
