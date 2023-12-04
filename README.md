@@ -93,6 +93,11 @@ git push origin main
 ```
 If necessary, enter your GitHub email as your ```username``` and a personal access token as your ```password```.
 
+Push a new branch to GitHub
+```bash
+git push -u origin BRANCH
+```
+
 Merge a branch with the main branch starting on ```main```
 ```bash
 git merge OTHER_BRANCH
