@@ -128,6 +128,16 @@ Get the current version of the GitHub repository and merge it with the local rep
 git pull
 ```
 
+Initialize a local folder as a Git repository
+```bash
+git init -b main
+```
+
+Link a local Git repository with a remote GitHub repository
+```bash
+git remote add origin https://github.com/USERNAME/REPOSITORY-NAME.git
+```
+
 Set your git email as your GitHub email
 ```bash
 git config --global user.email "GITHUB_EMAIL"
