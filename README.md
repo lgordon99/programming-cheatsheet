@@ -189,6 +189,11 @@ View jobs that are running
 squeue -u USERNAME -t RUNNING
 ```
 
+Check the status of a particular job
+```bash
+sacct -j JOB_NUMBER
+```
+
 Submit an interactive CPU job
 ```bash
 salloc PARTITION -t MINUTES -n NUMBER_OF_NODES --mem MEMORY_IN_MB
