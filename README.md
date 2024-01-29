@@ -209,6 +209,11 @@ Cancel all submitted jobs
 scancel -u USERNAME
 ```
 
+Cancel a particular job
+```bash
+scancel JOB_NUMBER
+```
+
 Resources
 * [Documentation](https://docs.rc.fas.harvard.edu)
 * [Email](mailto:rchelp@rc.fas.harvard.edu)
