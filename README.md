@@ -98,7 +98,7 @@ Push a new branch to GitHub
 git push -u origin BRANCH
 ```
 
-Merge a branch with the main branch starting on ```main```
+Merge a branch with another, starting on the branch you want to merge INTO
 ```bash
 git merge OTHER_BRANCH
 ```
