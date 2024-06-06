@@ -46,6 +46,32 @@ Remove an environment at ```PATH```
 conda env remove --prefix PATH
 ```
 
+## Tmux
+Create a new session with ```NAME```
+```bash
+tmux new -s NAME
+```
+
+Attach to an existing session with ```NAME```
+```bash
+tmux attach -t NAME
+```
+
+See list of active sessions
+```bash
+tmux ls
+```
+
+Detach from a session: ```Ctrl-B``` ```D```
+
+Move one pane up: ```Ctrl+B``` ```up-arrow```
+
+Move one pane down: ```Ctrl+B``` ```down-arrow```
+
+Enter scroll mode: ```Ctrl+B``` ```[```
+
+Exit scroll mode: ```q```
+
 ## Git
 Clone an existing repository for the purpose of modifying it
 ```bash
