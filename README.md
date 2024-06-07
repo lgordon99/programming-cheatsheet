@@ -1,8 +1,12 @@
 # Programming Cheatsheet
 [Command line](#command-line)
+
 [Conda](#conda)
+
 [Tmux](#tmux)
+
 [Git](#git)
+
 [Harvard FASRC Cluster](#harvard-fasrc-cluster)
 
 ## Command line
