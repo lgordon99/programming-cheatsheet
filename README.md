@@ -45,7 +45,7 @@ Activate an environment at ```PATH```
 conda activate PATH
 ```
 
-Add package to conda environment at ```PATH```
+Add ```PACKAGE``` to conda environment at ```PATH```
 ```bash
 conda install -p PATH PACKAGE
 ```
@@ -53,6 +53,11 @@ conda install -p PATH PACKAGE
 Remove an environment at ```PATH```
 ```bash
 conda env remove --prefix PATH
+```
+
+List all environments
+```bash
+conda env list
 ```
 
 ## Tmux
