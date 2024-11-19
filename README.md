@@ -7,6 +7,8 @@
 
 [Git](#git)
 
+[Vim](#vim)
+
 [Harvard FASRC Cluster](#harvard-fasrc-cluster)
 
 ## Command line
@@ -186,6 +188,27 @@ git config --global user.email "GITHUB_EMAIL"
 Set your git name
 ```bash
 git config --global user.name "NAME"
+```
+
+## Vim
+Open a file at PATH with Vim
+```
+vim PATH
+```
+
+Enter edit mode
+```
+i
+```
+
+Exit edit mode
+```
+esc
+```
+
+Save changes and close file
+```
+:wq
 ```
 
 ## Harvard FASRC Cluster
