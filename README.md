@@ -31,6 +31,26 @@ Zip a file or directory
 zip -r NEW_PATH.zip CURRENT_PATH
 ```
 
+Check memory breakdown within a directory
+```bash
+du -sh * .[^.]* | sort -rh
+```
+
+Copy file from local machine to remote server
+```bash
+scp PATH_TO_FILE USERNAME@SERVER:NEW_PATH
+```
+
+Copy directory from local machine to remote server
+```bash
+scp -r PATH_TO_FOLDER USERNAME@SERVER:NEW_PATH
+```
+
+Copy large directory from remote server to local machine
+```bash
+rsync -avzP USERNAME@SERVER:DIRECTORY_PATH NEW_PATH
+```
+
 ## Conda
 Create an environment
 ```bash
@@ -222,29 +242,9 @@ Check memory usage of home folder
 df -h ~
 ```
 
-Check memory breakdown within a directory
-```bash
-du -sh * .[^.]* | sort -rh
-```
-
-Copy file from local machine to cluster
-```bash
-scp PATH_TO_FILE USERNAME@login.rc.fas.harvard.edu:NEW_PATH
-```
-
-Copy directory from local machine to cluster
-```bash
-scp -r PATH_TO_FOLDER USERNAME@login.rc.fas.harvard.edu:NEW_PATH
-```
-
 View all available partitions
 ```bash
 spart
-```
-
-View all jobs
-```bash
-jobs
 ```
 
 View jobs that are running
