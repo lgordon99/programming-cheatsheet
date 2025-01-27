@@ -210,6 +210,11 @@ Set your git name
 git config --global user.name "NAME"
 ```
 
+Delete a git folder locally
+```bash
+rm -rf FOLDER
+```
+
 ## Vim
 Open a file at PATH with Vim
 ```
