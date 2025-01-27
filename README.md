@@ -215,6 +215,17 @@ Delete a git folder locally
 rm -rf FOLDER
 ```
 
+Stop tracking a file but keep it in your local folder
+```bash
+git rm --cached FILE
+```
+
+Stop tracking a folder but keep it in your local folder
+```bash
+git rm -r --cached FOLDER
+```
+
+
 ## Vim
 Open a file at PATH with Vim
 ```
