@@ -46,6 +46,11 @@ Copy directory from local machine to remote server
 scp -r PATH_TO_FOLDER USERNAME@SERVER:NEW_PATH
 ```
 
+Copy large directory
+```bash
+rsync -ah --progress --stats DIRECTORY_PATH NEW_PATH
+```
+
 Copy large directory from remote server to local machine
 ```bash
 rsync -avzP USERNAME@SERVER:DIRECTORY_PATH NEW_PATH
