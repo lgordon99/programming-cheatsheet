@@ -62,14 +62,19 @@ Create an environment
 conda create --name ENV_NAME
 ```
 
-Create an environment at ```PATH```
+Create an environment at ```PATH``` with pip
 ```bash
-conda create --prefix PATH
+conda create --prefix PATH pip
 ```
 
 Activate an environment at ```PATH```
 ```bash
 conda activate PATH
+```
+
+Install packages from a `requirements.txt` file
+```bash
+pip install -r requirements.txt
 ```
 
 Add ```PACKAGE``` to conda environment at ```PATH```
